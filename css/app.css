@@ -20,7 +20,9 @@ margin: auto;
 padding: 1em;
 width: 80%;
 }
-
+.destination:hover h2 {
+transform: rotate(0deg);
+}
 .destination-container {
 display: flex;
 flex-flow: wrap;
@@ -42,6 +44,7 @@ text-align: center;
 
 h2 {
 margin: 0;
+  transition: transform 0.5s;
 transform: rotate(-45deg);
 text-shadow: 0 0 5px #01579b;
 }
